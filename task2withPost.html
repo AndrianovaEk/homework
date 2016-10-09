@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Registration form</title>
+    </head>
+    <body>
+        <h1> Registration form </h1>
+        <form method="post">
+            <fieldset>
+            <legend>  Personal data </legend>
+            <div>
+            <label> First Name <input type="text" name="first name"><br>
+            Surname <input type="text" name="surname"></label><br>
+            Sex <input type="radio" name="sex" value="Male" >Male 
+                <p><input type="radio" name="sex" value="Female" checked> Female</p>
+            </div>
+            </fieldset>
+            <fieldset>
+            <legend>  Contact information </legend> 
+            <div>
+                <label>Site <input type="url" name="site" ><br>
+                E-mail  <input type="text" name="email"><br>
+                Phone <input type="tel" name="tel"></label>
+            </div>
+        </fieldset>
+        <button name="button" value="submit">Отправить</button>
+    </form>
+    </body>
+</html>

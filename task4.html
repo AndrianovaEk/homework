@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Form 4</title>
+    </head>
+    <body>
+<form method="get">
+    <fieldset>
+    <legend>  Personal data </legend>
+<label>  Surname <input type="text" name="surname"></label><br>
+<label>   First Name <input type="text" name="first name"></label><br>
+<label>   Middle Name <input type="text" name="moddle name"></label><br>
+<label>  You are <input type="radio" name="sex" value="Male" >Male </label>
+    <label><input type="radio" name="sex" value="Female" checked> Female</label><br>
+    <label>Age <input type="number" name ="age" min="18" max="100"></label><br>
+    <label>Country of Residence
+      <input list="countries">
+        <datalist id="countries">
+          <option value="Russia"></option>
+          <option value="USA"></option>
+          <option value="Germany"></option>
+          <option value="Japan"></option>
+        </datalist> 
+    </label>
+   <label>City <input type="checkbox" name="city" value="Ryazan"> Ryazan</label>
+    <label><input type="checkbox" name="city" value="Moscow">Moscow </label><br>
+   <label>Photography <button name="button" value="choose">Выберите файл</button> Файл не выбран</label>
+  <hr>
+    <p>Title 
+    <select name="title" size="8" multiple>
+      <optgroup label="Technologies">
+      	<option value="web master">Web master</option>
+      	<option value="Database Administrator">Database Administrator</option>
+      	<option value="Computer-aided design">Computer-aided design</option>
+    	</optgroup>
+      <optgroup label="Finance">
+      	<option value="Economic Planning">Economic Planning</option>
+      	<option value="Managment accounting">Managment accounting</option>
+      	<option value="Budgeting and planning">Budgeting and planning</option>
+    	</optgroup>
+    </select>
+    </p>
+ 	  <p>Salary <input type="range" name="range"></p>
+ 	  <p> <textarea name="comment" placeholder="Tell us about yorself" rows="10" cols="50"></textarea></p></fieldset>
+    <fieldset>
+      <legend>  Contact information </legend> 
+        <label> Site <input type="url" name="site" ></label> <br>
+          <label>  E-mail  <input type="text" name="email"></label> <br>
+          <label> Phone <input type="tel" name="tel"></label>   
+    </fieldset>
+    <label>Password <input type="text" name="password" required></label>
+    <hr>
+    <p><button name="button" value="submit">Отправить</button>
+    <button name="button1" value="reset">Сбросить</button></p>
+    </form>
+  </body>
+</html>
