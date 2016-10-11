@@ -5,15 +5,16 @@
         <title>Form 4</title>
     </head>
     <body>
+      <h1>Form 4</h1>
 <form method="get">
     <fieldset>
     <legend>  Personal data </legend>
-<label>  Surname <input type="text" name="surname"></label><br>
-<label>   First Name <input type="text" name="first name"></label><br>
-<label>   Middle Name <input type="text" name="moddle name"></label><br>
-<label>  You are <input type="radio" name="sex" value="Male" >Male </label>
-    <label><input type="radio" name="sex" value="Female" checked> Female</label><br>
-    <label>Age <input type="number" name ="age" min="18" max="100"></label><br>
+<label>  Surname <input type="text" name="surname"></input></label><br>
+<label>   First Name <input type="text" name="first name"></input></label><br>
+<label>   Middle Name <input type="text" name="moddle name"></input></label><br>
+<label>  You are <input type="radio" name="sex" value="Male" >Male </input></label>
+    <label><input type="radio" name="sex" value="Female" checked> Female</input></label><br>
+    <label>Age <input type="number" name ="age" min="18" max="100"></input></label><br>
     <label>Country of Residence
       <input list="countries">
         <datalist id="countries">
@@ -22,9 +23,11 @@
           <option value="Germany"></option>
           <option value="Japan"></option>
         </datalist> 
+        </input>
     </label>
-   <label>City <input type="checkbox" name="city" value="Ryazan"> Ryazan</label>
-    <label><input type="checkbox" name="city" value="Moscow">Moscow </label><br>
+    <br>
+   <label>City <input type="checkbox" name="city" value="Ryazan"> Ryazan</input></label>
+    <label><input type="checkbox" name="city" value="Moscow">Moscow </input></label><br>
    <label>Photography <button name="button" value="choose">Выберите файл</button> Файл не выбран</label>
   <hr>
     <p>Title 
@@ -41,15 +44,15 @@
     	</optgroup>
     </select>
     </p>
- 	  <p>Salary <input type="range" name="range"></p>
+ 	  <p>Salary <input type="range" name="range"></input></p>
  	  <p> <textarea name="comment" placeholder="Tell us about yorself" rows="10" cols="50"></textarea></p></fieldset>
     <fieldset>
       <legend>  Contact information </legend> 
-        <label> Site <input type="url" name="site" ></label> <br>
-          <label>  E-mail  <input type="text" name="email"></label> <br>
-          <label> Phone <input type="tel" name="tel"></label>   
+        <label> Site <input type="url" name="site" ></input></label> <br>
+          <label>  E-mail  <input type="text" name="email"></input></label> <br>
+          <label> Phone <input type="tel" name="tel"></input></label>   
     </fieldset>
-    <label>Password <input type="text" name="password" required></label>
+    <label>Password <input type="text" name="password" required></input></label>
     <hr>
     <p><button name="button" value="submit">Отправить</button>
     <button name="button1" value="reset">Сбросить</button></p>
