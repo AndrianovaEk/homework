@@ -1,0 +1,16 @@
+ h1, h2 {color: #A0522D}
+        div{background-color:red;
+        font-family:cursive}
+         #p {font-family:Georgia, 'Times New Roman'}
+        #zero {word-spacing:2em;
+        text-align: center}
+        #first {text-decoration: underline;
+        }
+        #second {text-decoration:line-through}
+        #fird {text-shadow: 1px 2px 2px blue, 0 0 1em yellow;
+        }
+        #five {font-family: arial;
+        color:#A52A2A}
+        #six {direction: rtl;
+        font-size: 3em;
+        text-transform:lowercase}
