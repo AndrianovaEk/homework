@@ -1,0 +1,30 @@
+h1 {font-family: "Monotype Corsiva";
+color:#B22222;
+font-size:3em;
+text-shadow:0 0 1em darkred}
+h2 {font-family: "Century Gothic";
+color:#B03060;
+}
+div {font-family: "Lucida Console";
+}
+#one {
+    background-color:rgba(255, 130, 71, 0.3);
+    text-align:center;
+    border-radius: 0 20px;
+    font-family: Cursive}
+#two {background-color:rgba(250, 128, 114, 0.3);
+border-radius: 20px 0;}
+#three {background-color:rgba(240, 128, 128, 0.5);
+box-shadow:0 0 2em #8B4726}
+#fourth {background-color:rgba(176, 48, 96, 0.5)}
+h3 {font-family:"Century Gothic";
+word-spacing:2em;
+text-transform:uppercase;
+color:#8B4726 }
+.num {vertical-align:super;
+font-size:0.7em
+}
+.word {vertical-align:sub;
+font-size:0.7em
+}
+
