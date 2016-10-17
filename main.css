@@ -1,0 +1,32 @@
+
+table{
+    border-color:#FFFFFF;
+    font-family:Arial;
+    color:#36648C;
+   
+}
+#header{
+    background-color:rgba(108, 166, 205, 0.6);
+    font-variant:small-caps; 
+height:50px;
+}
+
+.first{
+    background-color:rgba(202, 225, 255, 0.5 ) ;
+    height:50px;
+   
+}
+.first:hover{
+    background-color:rgba(202, 225, 255, 0.9 ) ;
+}
+.second{
+    background-color:rgba(108, 166, 205, 0.4);
+    height:50px;
+}
+.second:hover{
+    background-color:rgba(108, 166, 205, 0.6);
+}
+td{
+ padding-right: 15px;
+    padding-left: 15px
+}

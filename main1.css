@@ -1,0 +1,31 @@
+table{
+    border-color:#FFFFFF;
+    font-family:Arial;
+    color:#36648C;
+   
+}
+thead{
+    background-color:rgba(108, 166, 205, 0.5);
+    font-variant:small-caps; 
+}
+
+tr{
+    background-color:rgba(108, 166, 205, 0.2);
+    height:50px;
+}
+tr:hover{
+    background-color:rgba(108, 166, 205, 0.6);
+}
+
+tr:nth-of-type(even){
+    background-color:rgba(108, 166, 205, 0.4);
+    height:50px;
+}
+tr:nth-of-type(even):hover{
+    background-color:rgba(108, 166, 205, 0.9);
+    height:50px;
+}
+td{
+ padding-right: 15px;
+    padding-left: 15px
+}
