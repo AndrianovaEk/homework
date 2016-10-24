@@ -1,0 +1,49 @@
+
+#one{
+    background-color: red;
+    width:100px;
+    height:200px;
+    
+}
+#two{
+    background-color: red;
+    width:100px;
+    height:200px;
+    margin:-200px 0 0 1230px;
+
+}
+.bounching {
+  position: absolute;
+  top:150px;
+  height:30px;
+  margin: -4em 6.8em;
+  }
+  .bounching:before {
+  content: attr(data-content);
+  display: inline-block;  
+  position: absolute;
+  left: 0.1em;
+  width: 30px;
+  height: 30px;
+  background: steelblue;
+  border-radius: 90%;
+  }
+
+@keyframes bounching {
+  0% {
+      margin-left:-15px;
+    background: steelblue;
+    }
+  100% {
+    left: 1080px;
+    margin-left:1em;
+    }
+}
+.bounching:before{
+    animation-name:bounching;
+  animation-duration: 3s;
+  animation-timing-function:linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  }
+  

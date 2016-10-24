@@ -1,0 +1,28 @@
+.content { 
+    width:700px; 
+    height:8px; 
+    margin:50px auto; 
+    background:#DCDCDC;
+}
+ .content:before { 
+     content: attr(data-content);
+  display: inline-block;  
+    width:700; 
+    height:3px; 
+    margin:2px 0; 
+    background:#2187e7; 
+    position:absolute;
+}
+ 
+@keyframes loading {
+    0%  { width:0px;}
+    50% {width:350px;}
+    100%{ width:700;}	
+}
+.content:before{
+    animation-name:loading;
+  animation-duration: 3s;
+  animation-timing-function:linear;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  }
