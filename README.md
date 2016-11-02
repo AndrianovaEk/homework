@@ -8,3 +8,4 @@ CSS Selectors
 CSS Fundamental
 CSS Advanced
 CSS Layout
+JS Basics
