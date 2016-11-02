@@ -9,3 +9,4 @@ CSS Fundamental
 CSS Advanced
 CSS Layout
 JS Basics
+JS Basics Practice
