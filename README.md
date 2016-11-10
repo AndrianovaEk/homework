@@ -11,3 +11,4 @@ CSS Layout
 JS Basics
 JS Basics Practice
 JS Data Structure
+JS Closure
