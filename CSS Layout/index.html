@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="main.css">
+	<title>CSS Layout </title>
+</head>
+
+<body>
+	<header>
+		<div class="header">Help Center</div>
+		<div class="header">Our Support</div>
+		<div id="john">John Doe</div>
+	</header>
+	<aside class="left">
+		<nav class="nav">
+			<div class="block" id="forAdd">
+				<div class="addBook">
+					<form id="add-form" class="formAdd">
+						<input type="submit" id="add" value="+ Add a book" />
+						<input class="forSearch" type="text" id="title" placeholder="Enter the title" required/>
+						<input class="forSearch" type="text" id="author" placeholder="Enter the author" required/>
+					</form>
+				</div>
+			</div>
+			<div class="block">
+				<div class="forItems" id="book"></div>
+				<div class="wishlist">Now Reading</div>
+				<div class="forItems" id="browse"></div>
+				<div class="wishlist">Browse</div>
+				<div class="forItems" id="basket"></div>
+				<div class="wishlist">Buy Books</div>
+				<div class="forItems" id="favour"></div>
+				<div class="wishlist">Favourite Books</div>
+				<div class="forItems" id="wish"></div>
+				<div class="wishlist">Wishlist</div>
+				<div class="forItems" id="history"></div>
+				<div class="wishlist">History</div>
+			</div>
+			<div class="block">
+				<div class="circle" id="red"></div>
+				<div class="wishlist" id="read">Must Read Titles</div>
+				<div class="circle" id="yellow"></div>
+				<div class="wishlist">Best Of List</div>
+				<div class="circle" id="blue"></div>
+				<div class="wishlist">Classic Novels</div>
+				<div class="circle" id="purple"></div>
+				<div class="wishlist">Non Fiction</div>
+			</div>
+			<div class="block" id="text">
+				<div class="notification"> </div>
+			</div>
+		</nav>
+	</aside>
+	<main>
+		<section class="section">
+			<div id="head">Browse Available Books</div>
+			<nav class="navigation">
+				<div class="menu" id="menu1"> All Books</div>
+				<div class="menu" id="menu2"> Most Resent</div>
+				<div class="menu" id="menu3">Most popular</div>
+				<div class="menu" id="menu4">Free Books</div>
+				<form id="search-form">
+					<input type="text" id="enter" placeholder="Enter Keywords" required>
+					<input type="submit" id="buttonForSearch" value=''>
+				</form>
+			</nav>
+		</section>
+		<section class="books">
+			<article id="container">
+			</article>
+		</section>
+		<script src="js/model/book.model.js"></script>
+		<script src="js/model/notification.model.js"></script>
+		<script src="js/storage/books.store.js"></script>
+		<script src="js/view/books.view.js"></script>
+		<script src="js/view/notifications.view.js"></script>
+		<script src="js/utilities/utilities.js"></script>
+		<script src="js/controllers/book.controller.js"></script>
+		<script src="js/controllers/notifications.controller.js"></script>
+		<script src="js/main.js"></script>
+	</main>
+	<footer class="footer">
+		<div>
+			<div id="question"></div>
+			<div id="settings"></div>
+		</div>
+	</footer>
+</body>
+
+</html>
