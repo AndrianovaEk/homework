@@ -1,0 +1,36 @@
+body{
+    font-family:cursive
+}
+
+header{
+    color:#696969   
+}
+
+.check{
+    display:block;
+    position:relative;
+    top:-20px;
+    left:-15px
+}
+
+.viewItems{
+    padding-left:15px
+}
+#container{
+    display:block;
+    font-size:15px;
+    margin: 20px 0;
+    padding:10px 5px;
+    border: solid 1px;
+    width:210px;
+    height: 250px;
+    overflow-y: scroll;
+}
+#newToDo{
+    display:block;
+    font-family:cursive
+}
+#addButton{
+    display:block;
+    font-family:cursive
+}
